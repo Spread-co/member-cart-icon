@@ -32,6 +32,13 @@ export default {
       bindable: true,
       defaultValue: false,
     },
+    householdId: {
+      label: { en: 'Household ID' },
+      type: 'Text',
+      bindable: true,
+      hidden: true,
+      defaultValue: '',
+    },
   },
   triggerEvents: [
     {
