@@ -1,0 +1,12 @@
+{
+  "name": "member-cart-icon",
+  "version": "0.1.0",
+  "description": "Live cart icon with Realtime badge for Spread.co member navbar",
+  "scripts": {
+    "build": "weweb build",
+    "serve": "weweb serve"
+  },
+  "devDependencies": {
+    "@weweb/cli": "latest"
+  }
+}
