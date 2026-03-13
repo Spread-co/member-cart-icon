@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "Cart icon with live badge count for Spread.co members",
   "scripts": {
-    "build": "weweb build",
+    "build": "weweb build -- name=spread-member-cart-icon type=element",
     "serve": "weweb serve"
   },
   "devDependencies": {
