@@ -1,5 +1,5 @@
 <template>
-  <div class="mci" :class="{ 'mci--guest': !content.isMember }">
+  <div v-if="!content.portalTarget || content.portalTarget === 'member'" class="mci" :class="{ 'mci--guest': !content.isMember }">
     <button
       class="mci__btn"
       :class="{ 'mci__btn--active': cartCount > 0 }"

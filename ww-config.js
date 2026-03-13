@@ -39,6 +39,13 @@ export default {
       hidden: true,
       defaultValue: '',
     },
+    portalTarget: {
+      label: { en: 'Portal Target' },
+      type: 'Text',
+      bindable: true,
+      hidden: true,
+      defaultValue: '',
+    },
   },
   triggerEvents: [
     {
